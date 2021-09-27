@@ -30,7 +30,7 @@ describe('testing render application', () => {
     component.getAllByText('City Weather List')
     component.getAllByText('Weather')
     component.getAllByText('The Weather in my cities')
-    component.getAllByText('CV')
+
   })
   test('renders my profile', () => {  
     component.getAllByText(/Ainhoa/i)

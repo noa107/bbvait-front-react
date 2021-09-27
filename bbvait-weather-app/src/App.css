@@ -57,17 +57,6 @@
   align-items: flex-start;
 }
 /* MENU */
-.cv {  
-    background-color: rgba(0, 0, 0, 0);
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-image: url('./components/images/cv.png');
-    background-size: auto;
-    background-origin: padding-box;
-    background-clip: border-box;
-    height: 100vh;
-    min-height: 500px; 
-}
+
+
 

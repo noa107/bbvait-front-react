@@ -30,7 +30,8 @@ export const translations = {
     findWeather:"Find",
     titPanelPie:"Time search for today",
     loadSearch:"Loading",
-    loadPrevision:"Load next days"
+    loadPrevision:"Load next days",
+    data_contact:"Data Contact"
 
 
   },
@@ -63,7 +64,8 @@ export const translations = {
     findWeather:"Buscar",
     titPanelPie:"Busque el tiempo para hoy",
     loadSearch:"Intentando cargar la búsqueda",
-    loadPrevision:"No se pueden cargar más días"
+    loadPrevision:"No se pueden cargar más días",
+    data_contact:"Datos de contacto"
   },
 };
 

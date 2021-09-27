@@ -21,13 +21,7 @@
   "background_color": "#ffffff",
   "scope": "/",
   "shortcuts": [
-    {
-      "name": "Inicio",
-      "short_name": "Inicio",
-      "description": "View weather information for today",
-      "url": "/home?source=pwa",
-      "icons": [{ "src": "/images/cv.png", "sizes": "45x45" }]
-    },
+   
     {
       "name": "Administración ciudades favoritas",
       "short_name": "Adm. ciudades favoritas",

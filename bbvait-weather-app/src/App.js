@@ -14,7 +14,7 @@ import { ListCities } from './components/ListCities';
 import { Home } from './components/Home';
 import { ListWeather } from './components/ListWeather';
 import  Weather  from './components/Weather';
-import { Cv } from './components/Cv';
+
 class App extends Component {
   constructor() {
     super();
@@ -271,7 +271,8 @@ class App extends Component {
               <Weather city={this.state.cityToFind}/>
             )}
              />
-            <Route path="/CV" component={Cv} />
+             
+           
             <Route
               path="/list"
               render={(routerProps) => (
