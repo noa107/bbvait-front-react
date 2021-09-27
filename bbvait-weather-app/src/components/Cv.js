@@ -4,7 +4,9 @@ export class Cv extends Component {
     return (
            
          <div className="cv ">
-            
+            <div><i classname="fa fa-mobile">65791984</i></div>
+            <div><i classname="fa fa-envelope-o"/>ainhoasanchezdpablo@gmail.com</div>
+           
           </div>
    
     )

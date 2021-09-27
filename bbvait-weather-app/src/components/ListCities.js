@@ -417,7 +417,7 @@ export class ListCities extends Component {
             rows={10}
             rowsPerPageOptions={[5, 10, 25]}
             paginatorTemplate="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink CurrentPageReport RowsPerPageDropdown"
-            currentPageReportTemplate="Showing {first} to {last} of {totalRecords} cities"
+            currentPageReportTemplate="Mostrar {first} a {last} de {totalRecords} ciudades"
             globalFilter={this.state.globalFilter}
             header={header}
           >
@@ -426,8 +426,7 @@ export class ListCities extends Component {
               headerStyle={{ width: '3rem' }}
             ></Column>
             <Column field="id" header="Id" sortable></Column>
-            <Column field="name" header="Name" sortable></Column>
-            <Column field="email" header="Email" sortable></Column>
+            <Column field="name" header="Name" sortable></Column>           
 
             <Column body={this.actionBodyTemplate}></Column>
           </DataTable>

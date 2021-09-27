@@ -33,7 +33,7 @@ export class AppFooter extends Component {
 }
   render() {
     const submitHandler = () => {
-      this.props.send(this.state.city);
+       this.props.send(this.state.city);
     }
     return (
       <div className="layout-footer">
@@ -56,7 +56,8 @@ export class AppFooter extends Component {
             </span>
           </div>
           <div className="p-field">
-            <Button className="p-button-primary"><Link to={"/weather"}  onClick={submitHandler}>
+            <Button className="p-button-primary" >
+              <Link to={"/weather"}  id="findWeather" onClick={submitHandler}>
               <span>
                 <T clave="findWeather" />
               </span>

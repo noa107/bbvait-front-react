@@ -1298,7 +1298,9 @@ body {
 .layout-wrapper .layout-menu {
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none; 
+  font-size: 0.8rem;
+  }
   .layout-wrapper .layout-menu li a {
     cursor: pointer;
     display: block;

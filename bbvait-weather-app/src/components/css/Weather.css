@@ -74,11 +74,7 @@
   justify-content: space-between;
 }
 
-.dataview-demo .city-grid-item img {
-  width: 75%;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  margin: 2rem 0;
-}
+
 
 .dataview-demo .city-grid-item .city-grid-item-content {
   text-align: center;
@@ -121,13 +117,43 @@
     width: 100%;
   }
 }
-
+.p-col-12 {
+    width: 100%;
+}
+.p-grid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -.5rem;
+    margin-left: -.5rem;
+    margin-top: -.5rem;
+}
+.layout-content .card {
+    background: var(--surface-e);
+    padding: 2rem;
+    -webkit-box-shadow: 0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+.p-nogutter {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+.p-md-4 {
+    width: 33.3333%;
+}
 .weather-icon {
   width: 200px;
   float: right;
-  margin-right: 7rem;
 }
-
+.weather-icon-Reduce{
+  width: 80px;
+  margin-bottom: -40px;
+ 
+}
 .footer {
   background: #fff;
   position: absolute;
@@ -143,10 +169,18 @@
   width: 300px;
   padding-left: 2rem;
 }
+.tempReduce{
+    padding-left: 1rem;
+    margin-top: -25px;
+    font-size: 1.5rem;
+}
 .city {
   font-size: 2rem;
   margin: 2rem 1rem 1rem 2rem;
 }
+.cityReduce {
+    font-size: 1rem;
+  }
 .state {
   font-size: 2rem;
 }

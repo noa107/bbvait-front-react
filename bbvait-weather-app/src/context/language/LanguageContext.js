@@ -37,7 +37,7 @@ export const translations = {
   es: {
     menu_option1: "Inicio",
     menu_option3: "El Tiempo",
-    menu_option2: "Lista de Ciudades",
+    menu_option2: "Adm. ciudades favoritas",
     menu_option4: "El tiempo en mis ciudades",
     titleApp: "Aplicación del tiempo",
     titListCities:"Listado de ciudades definidas para consultar el tiempo",

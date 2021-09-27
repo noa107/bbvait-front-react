@@ -192,7 +192,7 @@ class App extends Component {
           window.location = '#/list'
         },
       },
-      {
+      { 
         label: <T clave="menu_option3" />,
         icon: 'fa fa-cloud',
         command: () => {

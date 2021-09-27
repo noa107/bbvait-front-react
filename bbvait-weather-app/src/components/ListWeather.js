@@ -2,6 +2,8 @@ import { Component } from 'react'
 import { DataView, DataViewLayoutOptions } from 'primereact/dataview'
 import { ServiceCities } from '../services/ServiceCities'
 import { Button } from 'primereact/button'
+import  Weather  from './Weather';
+import WeatherReduce from './WeatherReduce';
 export class ListWeather extends Component {
   constructor(props) {
     super(props)
@@ -14,7 +16,6 @@ export class ListWeather extends Component {
     }
 
     this.rows = 6
-
     this.serviceCities = new ServiceCities()
     this.itemTemplate = this.itemTemplate.bind(this)
     this.onPage = this.onPage.bind(this)
@@ -23,6 +24,7 @@ export class ListWeather extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.serviceCities.getCities().then((data) => {
+        console.log("data",data)
         this.datasource = data
         this.setState({
           totalRecords: data.length,
@@ -59,43 +61,24 @@ export class ListWeather extends Component {
 
   renderListItem(data) {
     return (
-      <div className="p-col-12">
-        <div className="city-list-item">
-          <div className="city-list-detail">
-            <div className="city-name">Nombre ciudad</div>
-            <div className="city-description">Dia</div>
-          </div>
-          <div className="city-list-action">
-            <span className="city-price">precio</span>
-            <span className={`city-badge `}>status</span>
-          </div>
-        </div>
-      </div>
+      <Weather city={data.name}/>
     )
   }
 
   renderGridItem(data) {
     return (
       <div className="p-col-12 p-md-4">
-        <div className="city-grid-item card">
-          <div className="city-grid-item-top">
-            <div>
-              <i className="pi pi-tag city-category-icon"></i>
-              <span className="city-category">Categoria</span>
-            </div>
-            <span className={`city-badge `}>status</span>
-          </div>
-
-          <div className="city-grid-item-bottom">
-            <span className="city-price">precio</span>
-          </div>
-        </div>
+      <div className="city-grid-item card">
+        <WeatherReduce city={data.name}/>
       </div>
+  </div>
     )
   }
 
   itemTemplate(city, layout) {
-    if (!city) {
+    console.log("entra con ",layout)
+    console.log("entra con ",city)
+    if (!city) {console.log("vaya con ",city)
       return
     }
 
