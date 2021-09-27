@@ -6,7 +6,7 @@ export const apiAxios = axios.create({
 
 export class ServiceCities {
   constructor() {
-    this.server = "http://localhost:8080/";
+    this.server = "https://asdpm-weather.herokuapp.com/";
     this.simulated = false;
   }
 
