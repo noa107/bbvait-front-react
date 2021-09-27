@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/bbvait/static/css/main.b20df259.chunk.css",
+    "main.js": "/bbvait/static/js/main.271c886c.chunk.js",
+    "main.js.map": "/bbvait/static/js/main.271c886c.chunk.js.map",
+    "runtime-main.js": "/bbvait/static/js/runtime-main.b5f127fa.js",
+    "runtime-main.js.map": "/bbvait/static/js/runtime-main.b5f127fa.js.map",
+    "static/css/2.dbefe1a2.chunk.css": "/bbvait/static/css/2.dbefe1a2.chunk.css",
+    "static/js/2.c28a5ad3.chunk.js": "/bbvait/static/js/2.c28a5ad3.chunk.js",
+    "static/js/2.c28a5ad3.chunk.js.map": "/bbvait/static/js/2.c28a5ad3.chunk.js.map",
+    "static/js/3.f6ed8908.chunk.js": "/bbvait/static/js/3.f6ed8908.chunk.js",
+    "static/js/3.f6ed8908.chunk.js.map": "/bbvait/static/js/3.f6ed8908.chunk.js.map",
+    "index.html": "/bbvait/index.html",
+    "service-worker.js": "/bbvait/service-worker.js",
+    "service-worker.js.map": "/bbvait/service-worker.js.map",
+    "static/css/2.dbefe1a2.chunk.css.map": "/bbvait/static/css/2.dbefe1a2.chunk.css.map",
+    "static/css/main.b20df259.chunk.css.map": "/bbvait/static/css/main.b20df259.chunk.css.map",
+    "static/js/2.c28a5ad3.chunk.js.LICENSE.txt": "/bbvait/static/js/2.c28a5ad3.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/bbvait/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/primeicons.css": "/bbvait/static/media/primeicons.e61f3495.woff",
+    "static/media/App.css": "/bbvait/static/media/world.651ed1a1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5f127fa.js",
+    "static/css/2.dbefe1a2.chunk.css",
+    "static/js/2.c28a5ad3.chunk.js",
+    "static/css/main.b20df259.chunk.css",
+    "static/js/main.271c886c.chunk.js"
+  ]
+}

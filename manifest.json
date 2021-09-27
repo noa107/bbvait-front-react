@@ -1,0 +1,57 @@
+{
+  "short_name": "Weather App",
+  "name": "Weather App for technical interview",
+  "icons": [
+    {
+      "src": "./images/logoBBVAit.svg",
+      "sizes": "60x56 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./images/world.svg",
+      "sizes": "80x80 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+ 
+  ],
+
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "scope": "/",
+  "shortcuts": [
+   
+    {
+      "name": "Administración ciudades favoritas",
+      "short_name": "Adm. ciudades favoritas",
+      "description": "Crud para administrar el listado de ciudades preferidas por el usuario para consultar el tiempo",
+      "url": "/list?source=pwa"     
+    },
+    {
+      "name": "El Tiempo",
+      "short_name": "El tiempo",
+      "description": "Muestra el tiempo para el día actual de la ciudad usada en el buscador del pie de la página",
+      "url": "/weather?source=pwa"     
+    },
+    {
+      "name": "El Tiempo en mis ciudades",
+      "short_name": "El tiempo de una listado",
+      "description": "Muestra un listado cuyos elementos son las consultas al api del tiempo de cada una de las ciudades guardadas en la lista de ciudades favoritas",
+      "url": "/ListWeather?source=pwa"     
+    }
+  ],
+  "description": "El tiempo",
+  "screenshots": [
+    {
+      "src": "/images/wind.svg",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/images/world.svg",
+      "type": "image/jpg",
+      "sizes": "80x80"
+    }
+  ]
+}
