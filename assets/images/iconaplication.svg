@@ -41,7 +41,7 @@
                 font-style:normal;
                 font-variant:normal;
                 font-stretch:normal;
-                font-size:70.02639008px;
+                font-size:2.5rem;
                 line-height:0.75;
                 font-family:monospace;
                 -inkscape-font-specification:monospace, Bold;
@@ -100,7 +100,7 @@
                         ry="59.00948"  />
 
                     <text class="textLogo"
-                        transform="scale(0.83445623,1.1983852)"
+                        transform="scale(0.83445623,1.1283852)"
                         id="letra"
                         y="201.84889"
                         x="156.05574">
