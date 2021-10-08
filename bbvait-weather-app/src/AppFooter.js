@@ -39,7 +39,7 @@ export class AppFooter extends Component {
       <div className="layout-footer">
       <Panel header={<T clave="titPanelPie"/>} toggleable >  
         <div className="p-formgroup-inline panelFooter">
-          <div className="bbvaItLogo ">
+          <div className="appLogo">
             <span className="footer-text-left"></span>
           </div>
           <div className="p-field">

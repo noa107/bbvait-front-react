@@ -23,8 +23,7 @@ export class ListWeather extends Component {
 
   componentDidMount() {
     setTimeout(() => {
-      this.serviceCities.getCities().then((data) => {
-        console.log("data",data)
+      this.serviceCities.getCities().then((data) => {      
         this.datasource = data
         this.setState({
           totalRecords: data.length,
@@ -76,9 +75,7 @@ export class ListWeather extends Component {
   }
 
   itemTemplate(city, layout) {
-    console.log("entra con ",layout)
-    console.log("entra con ",city)
-    if (!city) {console.log("vaya con ",city)
+     if (!city) {
       return
     }
 

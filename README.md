@@ -1,4 +1,4 @@
-# bbvaIT
+# Weather app
 
 ![Test Image 1](1.jpg)
 ![Test Image 2](2.jpg)

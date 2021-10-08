@@ -173,9 +173,9 @@ export class AppTopbar extends Component {
         ></Toast>
         <div className="topbar-left">
           <object
-            data="assets/images/logoBBVAit.svg"
+            data="assets/images/iconaplication.svg"
             type="image/svg+xml"
-            lt="BBVA IT"
+            lt="app"
             style={{
               width: '60px',
               height: '56px',
