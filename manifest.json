@@ -1,14 +1,14 @@
 {
-  "short_name": "Weather App",
+  "short_name": "AinhoWeather",
   "name": "Weather App for technical interview",
   "icons": [
     {
-      "src": "./images/iconaplication.svg",
+      "src": "./assets/images/iconaplication.svg",
       "sizes": "60x56 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "./images/world.svg",
+      "src": "./assets/images/world.svg",
       "sizes": "80x80 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
@@ -44,12 +44,12 @@
   "description": "El tiempo",
   "screenshots": [
     {
-      "src": "/images/wind.svg",
+      "src": "./assets/images/wind.svg",
       "type": "image/png",
       "sizes": "64x64"
     },
     {
-      "src": "/images/world.svg",
+      "src": "./assetsimages/world.svg",
       "type": "image/jpg",
       "sizes": "80x80"
     }
