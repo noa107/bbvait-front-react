@@ -4,7 +4,7 @@ import T from '../context/language/LanguageConsumer'
 export class Home extends Component {
   render() {
     return <Card className="principalBackground">
-     <T clave="menu_option1"/>
+     
      <h1>Primeros pasos con la aplicación</h1>
      <ul>
        <li>

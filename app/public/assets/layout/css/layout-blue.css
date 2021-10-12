@@ -1828,9 +1828,28 @@ body {
     -o-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg); }
-  .layout-wrapper .topbar .topbar-right #topbar-menu-button {
-    display: block; }
-  .layout-wrapper .topbar .topbar-right .topbar-items {
+   
+    
+    
+    /*AINHO: COMENTO ESTO PARA QUE EN RESOLUCION MOVIL NO SE VEA EL ICONO DE MENU YA Q EN ESTE EJEMPLO NO CREO FUNCIONALIDAD EN EL LADO DERECHO DEL TOPBAR*/
+  /*.layout-wrapper .topbar .topbar-right #topbar-menu-button {
+    display: block; }*/
+  .layout-wrapper .topbar .topbar-right #menu-button{left: 77px;}
+  .layout-wrapper .topbar .topbar-left {
+    width: 100px;
+  }
+  .layout-wrapper .topbar-items{  
+      -webkit-animation-name: none;
+      animation-name: none;
+      float: right;
+      margin: 5px 0 0 0;
+      padding: 0;
+      list-style-type: none;   }
+
+    /* AINHOA: Se comenta para poder visualizar el icono de loading, ya que queremos q se visualice directamente y dentro
+    del icono de menu
+    
+    .layout-wrapper .topbar .topbar-right .topbar-items {
     position: absolute;
     top: 75px;
     right: 15px;
@@ -1846,7 +1865,9 @@ body {
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 17px 0 rgba(0, 0, 0, 0.2);
     list-style-type: none;
     margin: 0;
-    padding: 0; }
+    padding: 0; }*/
+  /*---------- fin cambios para adaptar mi app al movil*/
+
     .layout-wrapper .topbar .topbar-right .topbar-items:before {
       width: 0;
       height: 0;

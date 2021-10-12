@@ -11,3 +11,15 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 500px) {
+.p-toolbar-group-right{
+  display: none !important;
+}
+.datatable-crud-demo .table-header{
+  display: inline;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+  padding: 5px 5px;
+}
+}

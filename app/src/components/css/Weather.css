@@ -86,6 +86,28 @@
 }
 
 @media screen and (max-width: 576px) {
+  /*WEATHER*/
+  .weather-icon {
+    width: 106px !important;    
+  }
+  .city {
+    font-size: 1.5rem !important;
+    margin: 1rem 1rem 1rem 0rem !important;
+  }
+  .state {
+    font-size: 1.5rem !important;
+  }
+  .temp {
+    font-size: 2.5rem !important;   
+    margin: 0rem 0rem 0rem 0rem !important;
+    width: 194PX !important;
+    padding-left: 1rem !important;
+  }
+  
+.form2lineWeather{
+  margin-left: 0rem !important;
+}
+  /*WEATHERLIST*/
   .dataview-demo .city-list-item {
     flex-direction: column;
     align-items: center;

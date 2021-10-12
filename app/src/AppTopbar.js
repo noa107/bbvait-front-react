@@ -188,7 +188,10 @@ export class AppTopbar extends Component {
           <button id="menu-button" onClick={this.props.onMenuButtonClick}>
             <i className="fa fa-angle-left"></i>
           </button>
-
+{  /** AINHO: SOLO PARA CUANDO QUERAMOS METER FUNCIONALIDAD COMO POR EJEMPLO ALARMAS,
+ U OTROS ICONOS EN EL LADO DERECHO QUE AL VERLOS EN RESOLUCIÓN MOVIL NO ENTRAN 
+Y DEBEN AGRUPARSE DENTRO DE ESTE ICONO DE MENU COMO EN ESTE EJEMPLO NO HAY FUNCIONALIDAD AÑADIDA COMENTO EN
+LAYOUT BLUE.CSS PARA QUE NO SE MUETRE ESTE BOTON DE MENU*/}
           <button
             id="topbar-menu-button"
             onClick={this.props.onTopbarMenuButtonClick}

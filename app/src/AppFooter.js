@@ -39,10 +39,10 @@ export class AppFooter extends Component {
       <div className="layout-footer">
       <Panel header={<T clave="titPanelPie"/>} toggleable >  
         <div className="p-formgroup-inline panelFooter">
-          <div className="appLogo">
+          <div className="appLogo last">
             <span className="footer-text-left"></span>
           </div>
-          <div className="p-field">
+          <div className="p-field first">
             <span className="p-float-label p-input-icon-left">
               <i className="pi pi-search" />
               <InputText
@@ -55,7 +55,7 @@ export class AppFooter extends Component {
               </label>
             </span>
           </div>
-          <div className="p-field">
+          <div>
             <Button className="p-button-primary" >
               <Link to={"/weather"}  id="findWeather" onClick={submitHandler}>
               <span>

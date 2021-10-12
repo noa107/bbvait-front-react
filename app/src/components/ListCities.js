@@ -425,7 +425,7 @@ export class ListCities extends Component {
               selectionMode="multiple"
               headerStyle={{ width: '3rem' }}
             ></Column>
-            <Column field="id" header="Id" sortable></Column>
+            <Column field="id" header="Id"  sortable></Column>
             <Column field="name" header="Name" sortable></Column>           
 
             <Column body={this.actionBodyTemplate}></Column>
