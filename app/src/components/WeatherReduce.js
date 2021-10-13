@@ -28,7 +28,7 @@ function WeatherReduce(props) {
   return (
     <Card>
       {apiData.main ? (
-        <div class="card-body ">
+        <div class="card-body">
           <img
             src={`http://openweathermap.org/img/w/${apiData.weather[0].icon}.png`}
             alt="Estado"
@@ -62,7 +62,7 @@ function WeatherReduce(props) {
                 </strong>
               </p>
             </div>
-            <div className="p-formgroup-inline" >
+            
             <div className="inf2lineWeather">
               <p>
                 <i className="fa fa-tint"></i>{' '}
@@ -71,20 +71,20 @@ function WeatherReduce(props) {
             </div>
             <div className="inf2lineWeather">
             </div>
-            <div className="p-formgroup-inline" style={{marginLeft: '-25px'}}>
+            <div className="p-formgroup-inline" >
               <object
                 data={renovableAnimation}
                 type="image/svg+xml"
                 className="topbar-logo"
               ></object>
 
-              <p style={{marginLeft: '-30px'}}>              
+              <p >              
                 <strong>{apiData.wind.speed}</strong>
               </p>
               </div>
               </div>
             </div>
-        </div>
+        
        
       ) : (
         <h1>

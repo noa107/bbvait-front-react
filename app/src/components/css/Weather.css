@@ -84,7 +84,11 @@
   font-size: 1.5rem;
   font-weight: 600;
 }
-
+.card-body{
+  display: flex;
+align-items: center;
+flex-direction: column;
+}
 @media screen and (max-width: 576px) {
   /*WEATHER*/
   .weather-icon {
@@ -108,6 +112,25 @@
   margin-left: 0rem !important;
 }
   /*WEATHERLIST*/
+  .p-sm-2 {
+    width: 49.99% !important
+    ;
+  }
+  .dataview-demo .city-grid-item {
+    margin: 0em  !important;  
+    padding: 0.5rem  !important;
+  }
+  .weather-icon-Reduce{
+    margin-bottom: 0px !important;
+    
+  }
+  .tempReduce {
+    padding-left: 0rem !important;
+    margin-top: 0px !important;
+    font-size: 1.9rem !important;
+ 
+  }
+  
   .dataview-demo .city-list-item {
     flex-direction: column;
     align-items: center;
@@ -167,6 +190,7 @@
 .p-md-4 {
     width: 33.3333%;
 }
+
 .weather-icon {
   width: 200px;
   float: right;
@@ -192,13 +216,12 @@
   padding-left: 2rem;
 }
 .tempReduce{
-    padding-left: 1rem;
-    margin-top: -25px;
+    padding-left: 1rem; 
     font-size: 1.5rem;
 }
 .city {
   font-size: 2rem;
-  margin: 2rem 1rem 1rem 2rem;
+  margin: 1rem 1rem 1rem 2rem;
 }
 .cityReduce {
     font-size: 1rem;
@@ -212,6 +235,7 @@
 }
 .inf2lineWeather{
     margin-right: 1rem;
+    min-width: 78px;
 }
 .form2lineWeather{
     margin-left: 5rem;

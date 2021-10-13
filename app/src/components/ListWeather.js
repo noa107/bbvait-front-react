@@ -66,7 +66,7 @@ export class ListWeather extends Component {
 
   renderGridItem(data) {
     return (
-      <div className="p-col-12 p-md-4">
+      <div className="p-col-12 p-md-4 p-sm-2">
       <div className="city-grid-item card">
         <WeatherReduce city={data.name}/>
       </div>
